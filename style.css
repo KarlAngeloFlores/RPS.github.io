@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(226, 238, 255);
+    margin: 0px;
+}
+
+p {
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container_img {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#user_score, #computer_score {
+    width: 100px;
+    height: 120px;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #ffffff;
+    font-size: large;
+    font-weight: 1000;
+}
+
+
+
+#userScore {
+        color: white;
+}
+
+#computerScore {
+      color: white;
+}
+
+#result_img {
+    display: flex;
+    width: 250px;
+    height: 120px;
+    padding-right: 5px;
+    background-color: white;
+    border: 2px solid #3498db;
+}
+
+.user_img, .computer_img {
+    width: 100px;
+    height: 100px;  
+    display: flex;
+}
+
+.rock_img, .paper_img, .scissors_img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn_game {
+    display: inline-flex;
+}
+
+.btn_rock, .btn_paper, .btn_scissors {
+
+border-radius: 100px;
+cursor: pointer;
+margin: 10px;
+margin-top: -30px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+width: 120px;
+height: 120px;
+background-color: aliceblue;
+border: 2px solid #3498db;
+
+}
+
+.btn_reset {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(147, 228, 100);
+    border: 0cap;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn_rock:hover, .btn_paper:hover, .btn_scissors:hover, .btn_reset:hover {
+    background-color: rgb(32, 150, 218);
+}
